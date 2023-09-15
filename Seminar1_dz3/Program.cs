@@ -6,8 +6,6 @@
 Console.WriteLine("Введите число  :");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
-int raznica = 1;
-
 if (num1 % 2 < 1)
 {
     Console.WriteLine ($"Число {num1} является чётным");
