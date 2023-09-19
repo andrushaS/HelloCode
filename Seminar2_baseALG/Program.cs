@@ -44,24 +44,24 @@
 // 485 -> 45
 // 45 -> erorr!
 
-// void CutNumber (int num=0)
-// {
-//     if (num<99 || num>999)
-//     {
-//         Console.WriteLine("Error");
-//     }
-//     else 
-//     {
-//         int firstdigit = num/100;
-//         int lastdigit = num%10;
-//         int newnumber = (firstdigit*10)+lastdigit; 
-//         Console.WriteLine($"New number is {newnumber}");
-//     }
-// }
-// Console.WriteLine("Enter number:");
-// int number = Convert.ToInt32(Console.ReadLine());
-// //Console.WriteLine($"Your number is {number}");
-// CutNumber(number);
+void CutNumber (int num=0)
+{
+    if (num<99 || num>999)
+    {
+        Console.WriteLine("Error");
+    }
+    else 
+    {
+        int firstdigit = num/100;
+        int lastdigit = num%10;
+        int newnumber = (firstdigit*10)+lastdigit; 
+        Console.WriteLine($"New number is {newnumber}");
+    }
+}
+Console.WriteLine("Enter number:");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Your number is {number}");
+CutNumber(number);
 
 
 //Напишите программу, которая принимает нав ход 
@@ -110,20 +110,20 @@
 // число кратным первому. Если число 2 не кратно числу
 // 1, то программа выводит остаток от деление.
 
-void CheckCrat(int val1, int val2)
-{
-    if(val2%val1==0)
-    {
-        Console.WriteLine("Number 2 crat to number 1");
-    }
-    else 
-    {
-        int res = val2%val1;
-        Console.WriteLine($"Number is not cart, {res}");
-    }
-}
-Console.WriteLine ("Input fisrts number");
-int val1=Convert.ToInt32(Console.ReadLine());
-Console.WriteLine ("Input second number");
-int val2=Convert.ToInt32(Console.ReadLine());
-CheckCrat(val1, val2);
+// void CheckCrat(int val1, int val2)
+// {
+//     if(val2%val1==0)
+//     {
+//         Console.WriteLine("Number 2 crat to number 1");
+//     }
+//     else 
+//     {
+//         int res = val2%val1;
+//         Console.WriteLine($"Number is not cart, {res}");
+//     }
+// }
+// Console.WriteLine ("Input fisrts number");
+// int val1=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Input second number");
+// int val2=Convert.ToInt32(Console.ReadLine());
+// CheckCrat(val1, val2);
