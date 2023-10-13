@@ -40,3 +40,4 @@ int size = Convert.ToInt32(Console.ReadLine());
 int [] newArray = CreateArray(min,max,size);
 ShowArray(newArray);
 Console.WriteLine($"Количество чисел больше нуля : {BolsheNylya(newArray)}");
+//asd
