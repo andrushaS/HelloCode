@@ -76,3 +76,30 @@
 // Console.WriteLine("Enter M numb");
 // int M = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"Sum of digits of number {M} is {SumDigits(M)}.");
+
+
+
+// void ShowNumbers(int n)
+// {
+//     if (n > 1) ShowNumbers(n - 1);
+//     Console.Write($"{n} ");
+
+// }
+// ShowNumbers(5);
+
+// Console.Write("Введите значение M: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите значение N: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// void che(int m, int n)
+// {
+//     if (m > n)
+//         return;
+//     if (m % 2 == 0)
+//     {
+//         Console.Write($"{m}, ");
+//     }
+//     che(m + 1, n);
+
+// }
+// che(m, n);
